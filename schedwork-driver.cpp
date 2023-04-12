@@ -23,6 +23,13 @@ int main()
         {1, 1, 0, 1},
         {1, 0, 0, 1}
     };
+    /*
+    {1, 1, 1, 1},
+    {1, 0, 1, 0},
+    {1, 1, 0, 1},
+    {1, 0, 0, 1}
+    */
+    
     DailySchedule sched;
     bool solutionFound = schedule(avail, 2, 2, sched);
     if(solutionFound)
